@@ -1,0 +1,96 @@
+{"intents": [
+{"tag": "greetings",
+"patterns": ["Hello", "Hey", "Hi","How do you do", "What's up", "Sup"],
+"responses": ["hello", "hey", "hi", "what’s up", "sup"]},
+
+{"tag": "goodbye",
+"patterns": ["goodbye", "farewell", "see you again", "Until next time"],
+"responses": ["goodbye", "farewell", "see you again", "Until next time", "Take care", "Catch you later"]},
+
+{"tag": "introduction",
+"patterns": ["Who are you?", "What is your name?", "Nice to meet you"],
+"responses": ["nice to meet you! I am Zen bot created by ZhenXuan"]},
+
+{"tag": "thanks",
+"patterns": ["Thank you", "Thanks a lot", "I appreciate it", "Thank you so much"],
+"responses": ["You're welcome", "No problem", "Glad to help", "Anytime"]},
+
+{"tag": "weather",
+"patterns": ["What's the weather like today?", "Is it going to rain?", "How hot is it outside?"],
+"responses": ["I'm sorry, I don't have access to live weather information right now",
+"You can check the weather forecast online or on your phone",
+"I'm not sure about the weather, but I hope you have a great day!"]},
+
+{"tag": "help",
+"patterns": ["Can you help me?", "I need assistance", "What can you do?"],
+"responses": ["Of course! What do you need help with?",
+"Sure, what can I help you with?",
+"I'm happy to assist you. What do you need help with?"]},
+
+  {"tag": "help",
+"patterns": ["can you help me?", "what can you do?", "what are your abilities?", "I need assistance"],
+"responses": ["Sure, I'm here to help. What do you need assistance with?", "I can answer questions, provide information, or just chat. What do you need help with?"]},
+
+{"tag": "thanks",
+"patterns": ["thank you", "thanks a lot", "thanks for your help"],
+"responses": ["You're welcome!", "No problem, happy to help!", "Glad I could assist you!"]},
+
+{"tag": "weather",
+"patterns": ["what's the weather like?", "will it rain today?", "what's the temperature?"],
+"responses": ["I'm sorry, I'm not able to check the weather for you.", "You can try checking a weather website or app for the current conditions."]},
+
+{"tag": "music",
+"patterns": ["what's your favorite song?", "do you like music?", "can you sing?"],
+"responses": ["I don't have a favorite song, but I do enjoy listening to music. Unfortunately, I can't sing."]},
+
+  {
+  "tag": "movies",
+  "patterns": [
+    "What's your favorite movie?",
+    "Do you like watching films?",
+    "Have you seen any good movies recently?",
+    "Who is your favorite actor/actress?"
+  ],
+  "responses": [
+    "I don't have personal preferences, but I can recommend movies based on your taste.",
+    "I enjoy analyzing movies and discussing them.",
+    "I can provide information about popular films or actors/actresses.",
+    "I don't have personal favorites, but I can suggest movies based on different genres or actors/actresses."
+  ]
+},
+
+  {
+  "tag": "sports",
+  "patterns": [
+    "Which sports do you like?",
+    "Who is your favorite athlete?",
+    "Do you enjoy playing sports?",
+    "Have you ever been to a live sporting event?"
+  ],
+  "responses": [
+    "I don't have personal preferences, but I can provide information and updates on various sports.",
+    "I can help you with rules, techniques, or trivia about different sports.",
+    "I can provide information about upcoming matches or popular sports events.",
+    "I don't have personal favorites, but I can recommend popular athletes or teams based on your interests."
+  ]
+},
+
+  {
+  "tag": "books",
+  "patterns": [
+    "What's your favorite book?",
+    "Do you enjoy reading?",
+    "Can you recommend a good book?",
+    "Do you prefer fiction or non-fiction?"
+  ],
+  "responses": [
+    "I don't have personal preferences, but I can recommend books based on different genres or themes.",
+    "I can provide information about popular books or authors.",
+    "I can suggest books based on your interests or provide summaries and reviews for various literary works.",
+    "I don't have personal preferences, but I can help you discover great books to read."
+  ]
+}
+
+]
+}
+
